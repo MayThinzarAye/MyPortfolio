@@ -1,0 +1,23 @@
+:root {
+  --bg-primary: #251600;
+  --bg-secondary: #110a00;
+  --primary: #ee9610;
+  --text: #faf6f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px ,100/16*10*/
+  font-size: 62.5%;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  color: var(--text);
+  line-height: 1;
+  font-weight: 400;
+}
