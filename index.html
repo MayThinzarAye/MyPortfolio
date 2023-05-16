@@ -7,7 +7,6 @@
     <title>My Portfolio</title>
 
     <!-- fontawesome link  -->
-    <link rel="stylesheet" href="
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -15,14 +14,310 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    " />
 
     <!-- style link  -->
+    <link rel="stylesheet" href="./css/chart.css" />
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Hello</h1>
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-text-box">
+          <span class="sub-heading"
+            >My name is <span class="my-name">May Thinzar Aye</span></span
+          >
+          <h1 class="primary-heading">I am web developer</h1>
+          <p class="hero-description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde velit
+            mollitia accusamus sunt vel commodi asperiores, quas aliquid at
+            dignissimos praesentium debitis inventore ullam eligendi rem eum
+            autem nobis facere.
+          </p>
+          <a href="#" class="btn btn-full">Download CV &Darr;</a>
+        </div>
+        <div class="hero-img-box">
+          <img class="img-hero" src="./img/image-1.jpeg" alt="My Picture" />
+        </div>
+      </div>
+    </section>
+    <section class="section-about">
+      <div class="container">
+        <h2 class="secondary-heading-small-section">Who I Am</h2>
+      </div>
+      <div class="container grid grid--about">
+        <p class="bio-description">
+          <span>My name is May Thinzar Aye. I'm web developer</span>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
+          veritatis hic vero ipsam aliquam quisquam reprehenderit consequuntur
+          saepe! Dolore temporibus dolorum inventore debitis ratione officia
+          sequi doloribus, at vero quas!
+        </p>
+        <div class="bio-list">
+          <ul>
+            <li class="bio-list-li bio-label">
+              <p>Name :</p>
+              <p>May Thinzar Aye</p>
+            </li>
+            <li class="bio-list-li bio-label">
+              <p>Email :</p>
+              <a href="mailto:maythinzaraye7777@gmail.com"
+                >maythinzaraye7777@gmail.com</a
+              >
+            </li>
+            <li class="bio-list-li bio-label">
+              <p>Age :</p>
+              <p>34</p>
+            </li>
+            <li class="bio-list-li bio-label">
+              <p>From :</p>
+              <address>Ygn, Myanmar</address>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-full">Download CV &Darr;</a>
+        </div>
+      </div>
+    </section>
+    <section class="section-what-i-do">
+      <div class="container">
+        <h2 class="secondary-heading heading-center">What I Do</h2>
+      </div>
+      <div class="container what-i-do-contents grid-what-i-do grid--2--columns">
+        <div class="what-i-do-group">
+          <div class="what-i-do-icon">
+            <i class="fa-solid fa-brush"></i>
+          </div>
+          <div class="what-i-do-content">
+            <h3 class="sub-heading">Graphic Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+              reprehenderit ipsam, architecto quis tempora asperiores
+              perspiciatis sunt est magnam ullam ipsum ex sit accusantium culpa
+              explicabo! Nostrum illum quam cumque?
+            </p>
+          </div>
+        </div>
+        <div class="what-i-do-group">
+          <div class="what-i-do-icon">
+            <i class="fa-solid fa-atom"></i>
+          </div>
+          <div class="what-i-do-content">
+            <h3 class="sub-heading">UI/UX Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+              reprehenderit ipsam, architecto quis tempora asperiores
+              perspiciatis sunt est magnam ullam ipsum ex sit accusantium culpa
+              explicabo! Nostrum illum quam cumque?
+            </p>
+          </div>
+        </div>
+        <div class="what-i-do-group">
+          <div class="what-i-do-icon">
+            <i class="fa-solid fa-earth-asia"></i>
+          </div>
+          <div class="what-i-do-content">
+            <h3 class="sub-heading">Frontend</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+              reprehenderit ipsam, architecto quis tempora asperiores
+              perspiciatis sunt est magnam ullam ipsum ex sit accusantium culpa
+              explicabo! Nostrum illum quam cumque?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="secondary-heading heading-center">
+          <span> My Skills</span>
+        </h2>
+        <div class="circle-chart-container grid grid--3--columns">
+          <!-- HTML circle -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">70%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">HTML</p>
+          </div>
+          <!-- CSS circle -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">50%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">CSS</p>
+          </div>
+          <!-- js circle -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">30%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">Javascript</p>
+          </div>
+          <!-- bootstrap circle -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">30%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">Bootstrap</p>
+          </div>
+          <!-- React circle -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">30%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">React</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="secondary-heading heading-center experience-title">
+          <span> My Expericence</span>
+        </h2>
+      </div>
+      <div class="container grid-exp grid--2--columns">
+        <div class="experience-cart">
+          <p class="exp-num">1</p>
+          <p class="exp-title">Years of <br />Experience</p>
+        </div>
+        <div class="experience-cart">
+          <p class="exp-num">5</p>
+          <p class="exp-title">completed <br />projects</p>
+        </div>
+        <div class="experience-cart">
+          <p class="exp-num">10</p>
+          <p class="exp-title">happy <br />customers</p>
+        </div>
+        <div class="experience-cart">
+          <p class="exp-num">3</p>
+          <p class="exp-title">awards<br />won</p>
+        </div>
+      </div>
+    </section>
+    <section class="section-work">
+      <div class="container">
+        <h2 class="secondary-heading heading-center">
+          <span> My Works</span>
+        </h2>
+        <ul class="work-nav-ul">
+          <li class="work-nav-li">
+            <a href="#" class="work-nav-link active">All Projects</a>
+          </li>
+          <li class="work-nav-li">
+            <a href="#" class="work-nav-link">My Project-Portfolio</a>
+          </li>
+          <li class="work-nav-li">
+            <a href="#" class="work-nav-link">My Project-Website</a>
+          </li>
+          <li class="work-nav-li">
+            <a href="#" class="work-nav-link">My Project-Web App</a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <!-- script js link  -->
     <script src="./js/script.js"></script>

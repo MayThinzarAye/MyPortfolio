@@ -41,3 +41,178 @@ default: 9px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
+/*********************/
+/* section hero */
+/*********************/
+.section-hero {
+  background-color: var(--bg-primary);
+  padding: 4.8rem 0 9.6rem 0;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 130rem;
+  gap: 9.6rem;
+  padding: 0 3.2rem;
+}
+
+.img-hero {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.my-name {
+  color: var(--primary);
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+/*********************/
+/* section about*/
+/*********************/
+
+.section-about {
+  background-color: var(--bg-secondary);
+  padding: 3.2rem 0;
+}
+.grid--about {
+  grid-template-columns: 2fr 1fr;
+}
+.bio-description {
+  color: var(--text);
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+.bio-description span {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 500;
+  display: block;
+  text-transform: capitalize;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75;
+}
+
+.bio-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.2rem;
+  padding-top: 1.6rem;
+  padding-bottom: 3.2rem;
+}
+.bio-list-li {
+  font-size: 1.6rem;
+  display: flex;
+}
+.bio-label {
+  padding-left: 4rem;
+}
+
+/*********************/
+/* section what i do*/
+/*********************/
+.section-what-i-do {
+  background-color: var(--bg-secondary);
+  padding-bottom: 9.6rem 0;
+}
+.grid-what-i-do {
+  display: grid;
+  row-gap: 3.2rem;
+  column-gap: 6.4rem;
+}
+.what-i-do-contents {
+  margin-bottom: 6.4rem;
+}
+.what-i-do-group {
+  display: flex;
+  column-gap: 2.4rem;
+}
+.what-i-do-icon {
+  font-size: 5.2rem;
+  color: gray;
+}
+.what-i-do-content h3 {
+  color: var(--primary);
+}
+.what-i-do-content p {
+  color: var(--text);
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+.skill-name {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-top: 3.2rem;
+  font-weight: 500;
+}
+.experience-title {
+  padding: 8rem 0 2.4rem 0;
+}
+.grid-exp {
+  display: grid;
+  row-gap: 3.2rem;
+  column-gap: 6.4rem;
+}
+.experience-cart {
+  border: 1px solid var(--primary);
+  padding: 1.5rem 3.2rem;
+  border-radius: 2rem;
+}
+.exp-num {
+  font-size: 8.6rem;
+  font-weight: 700;
+  color: var(--primary);
+  position: relative;
+}
+.exp-num::after {
+  content: "+";
+  font-size: 4.4rem;
+  position: absolute;
+  box-sizing: border-box;
+}
+.exp-title {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: var(--text);
+  padding-left: 8rem;
+  text-transform: uppercase;
+}
+/*********************/
+/* section about*/
+/*********************/
+.section-work {
+  background-color: var(--bg-primary);
+  padding: 9.6rem 0 6.4rem 0;
+}
+.work-nav-ul {
+  display: flex;
+  list-style: none;
+  column-gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+}
+.work-nav-li {
+  font-size: 1.8rem;
+}
+.work-nav-link:link,
+.work-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0.8rem;
+}
+.active {
+  border-bottom: 1px solid var(--primary) !important;
+  padding-bottom: 0.8rem;
+}
