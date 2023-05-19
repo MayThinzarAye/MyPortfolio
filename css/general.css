@@ -1,6 +1,6 @@
 :root {
   --bg-primary: #0f0901;
-  --bg-secondary: #110a00;
+  --bg-secondary: #030202;
   --primary: #ee9610;
   --primar-shade: #b8651b;
   --text: #faf6f2;
@@ -15,9 +15,10 @@
 html {
   /* 10px ,100/16*10*/
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--text);
   line-height: 1;
   font-weight: 400;
@@ -41,6 +42,9 @@ body {
 }
 .grid--4--columns {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--5--columns {
+  grid-template-columns: repeat(5, 1fr);
 }
 /* heading component  */
 .primary-heading,
